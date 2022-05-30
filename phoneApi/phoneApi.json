@@ -1,0 +1,183 @@
+[
+    {
+        "brand": "Samsung",
+        "model": "Galaxy S21 ULTRA 5G",
+        "photo": "./images/samsung-galaxy-s21-ultra-5g.jpg",
+        "launch": "2021",
+        "display": {
+            "type": "dynamic amoled",
+            "size": "6.8",
+            "resolution": "1440x3200",
+            "protection": "Corning Gorilla Glass Victus"
+        },
+        "os": "Android 11",
+        "chipset": "Exynos 2100",
+        "memory": {
+            "card-slot": "no",
+            "internal": "128",
+            "ram": "12"
+        },
+        "camera": {
+            "quad": "108 MP, f/1.8, 24mm (wide), 10 MP, f/4.9, 240mm (periscope telephoto),10 MP, f/2.4, 72mm (telephoto), 1/3.24",
+            "video": "8K@24fps, 4K@30/60fps, 1080p@30/60/240fps, 720p@960fps, HDR10+, stereo sound rec., gyro-EIS" 
+        },
+        "battery": "5000",
+        "charging": "25",
+        "performance": {
+            "Antutu":"657150",
+            "Geekbench": "3518"
+        },
+        "price": "809"
+    },
+    {
+        "brand": "Xiaomi",
+        "model": "Redmi Note 10 PRO",
+        "photo": "./images/xiaomi-redmi-note10-pro.jpg",
+        "launch": "2021",
+        "display": {
+            "type": "amoled",
+            "size": "6.67",
+            "resolution": "1080x2400",
+            "protection": "Corning Gorilla Glass 5"
+        },
+        "os": "Android 11",
+        "chipset": "Qualcomm SM7150 Snapdragon 732G",
+        "memory": {
+            "card-slot": "yes",
+            "internal": "64",
+            "ram": "6"
+        },
+        "camera": {
+            "quad": "108 MP, f/1.9, 26mm (wide),8 MP, f/2.2, 118˚ (ultrawide), 5 MP, f/2.4, (macro), AF2 MP, f/2.4, (depth)",
+            "video": "4K@30fps, 1080p@30/60fps" 
+        },
+        "battery": "5020",
+        "charging": "33",
+        "performance": {
+            "Antutu":"295442",
+            "Geekbench": " 1780"
+        },
+        "price": "310"
+    },
+    {
+        "brand": "Xiaomi",
+        "model": "Poco F3",
+        "photo": "./images/xiaomi-poco-f3.jpg",
+        "launch": "2021",
+        "display": {
+            "type": "amoled",
+            "size": "6.67",
+            "resolution": "1080x2400",
+            "protection": "Corning Gorilla Glass 5"
+        },
+        "os": "Android 11",
+        "chipset": "Qualcomm SM8250-AC Snapdragon 870 5G ",
+        "memory": {
+            "card-slot": "no",
+            "internal": "128",
+            "ram": "6"
+        },
+        "camera": {
+            "triple": "48 MP, f/1.8, 26mm (wide),8 MP, f/2.2, 5 MP, f/2.4",
+            "video": "4K@30fps, 1080p@30/60/120/240/960fps, gyro-EIS" 
+        },
+        "battery": "4520",
+        "charging": "33",
+        "performance": {
+            "Antutu":"631850",
+            "Geekbench": " 2100"
+        },
+        "price": "339"
+    },
+    {
+        "brand": "Sony",
+        "model": "Xperia 1 III",
+        "launch": "2021",
+        "photo": "./images/sony-xperia-1.jpg",
+        "display": {
+            "type": "oled",
+            "size": "6.5",
+            "resolution": "1644 x 3840",
+            "protection": "Corning Gorilla Glass Victus"
+        },
+        "os": "Android 11",
+        "chipset": "Qualcomm SM8350 Snapdragon 888 5G",
+        "memory": {
+            "card-slot": "yes",
+            "internal": "256",
+            "ram": "12"
+        },
+        "camera": {
+            "quad": "12 MP, f/1.7, 24mm (wide),12 MP, f/2.3, 70mm (telephoto), 3x/4.4x optical zoom,12 MP, f/2.2, 124˚",
+            "video": "4K@24/25/30/60/120fps HDR, 1080p@30/60/120/240fps; 5-axis gyro-EIS, OIS" 
+        },
+        "battery": "4500",
+        "charging": "30",
+        "performance": {
+            "Antutu":"607423",
+            "Geekbench": "3515"
+        },
+        "price": "1261"
+    },
+    {
+        "brand": "Xiaomi",
+        "model": "Poco x3 Pro",
+        "photo": "./images/xiaomi-poco-x3-pro.jpg",
+        "launch": "2021",
+        "display": {
+            "type": "ips",
+            "size": "6.67",
+            "resolution": "1080 x 2400",
+            "protection": "Corning Gorilla Glass 6"
+        },
+        "os": "Android 11",
+        "chipset": "Qualcomm Snapdragon 860",
+        "memory": {
+            "card-slot": "yes",
+            "internal": "128",
+            "ram": "6"
+        },
+        "camera": {
+            "quad": "48 MP, f/1.8, (wide), 1/2.0,8 MP, f/2.2, 119˚ (ultrawide), 2 MP, f/2.4, 2 MP, f/2.4",
+            "video": "4K@30fps, 1080p@30/60/120/240fps, 1080p@960fps, gyro-EIS" 
+        },
+        "battery": "5160",
+        "charging": "33",
+        "performance": {
+            "Antutu":"453223",
+            "Geekbench": "2574"
+        },
+        "price": "260"
+    },
+    {
+        "brand": "Google",
+        "model": "Pixel 6 Pro",
+        "photo": "./images/google-pixel-6-pro.jpg",
+        "launch": "2021",
+        "display": {
+            "type": "amoled",
+            "size": "6.71",
+            "resolution": "1440 x 3120",
+            "protection": "Corning Gorilla Glass Victus"
+        },
+        "os": "Android 12",
+        "chipset": "Google Tensor",
+        "memory": {
+            "card-slot": "no",
+            "internal": "128",
+            "ram": "12"
+        },
+        "camera": {
+            "triple": "50 MP, f/1.9, 25mm (wide), 48 MP, f/3.5, 104mm (telephoto), 12 MP, f/2.2, 17mm",
+            "video": "4K@30/60fps, 1080p@30/60/120/240fps; gyro-EIS, OIS" 
+        },
+        "battery": "5003",
+        "charging": "30",
+        "performance": {
+            "Antutu":"585485",
+            "Geekbench": "2831"
+        },
+        "price": "868"
+    }
+    
+]

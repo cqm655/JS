@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">     
+    <title>toDoList</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+
+</head>
+<body>
+    <main>
+        <h3>To Do 2.0</h3>
+       <div class="create-task">
+           <input type="text" name="" id="task-input">
+           <select  id="importancy">
+            <option value="0">All</option>
+               <option value="1">Important</option>
+               <option value="2">Normal</option>
+               <option value="3">Easy</option>
+           </select>
+           <button id="creator">Create task</button>
+       </div>
+       <div class="importancy all">
+           <h3>All Tasks</h3>
+           <button id="sort-by-time"> Sort By Time</button>
+           <div class="all-tasks">
+
+           </div>
+        </div>
+       <div class="impportancy one">
+           <h3>Important task</h3>
+           <div class="tasks tasks-one"></div>
+       </div>
+       <div class="impportancy two">
+        <h3>Normal task</h3>
+        <div class="tasks tasks-two"></div>
+    </div>
+
+    <div class="impportancy three">
+        <h3>Easy task</h3>
+        <div class="tasks tasks-three"></div>
+    </div>
+
+
+    </main>
+    <script src="script.js"></script>
+    
+</body>
+
+</html>

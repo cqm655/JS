@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Account</title>
+</head>
+<body>
+    <h3>Account</h3>
+    <hr>
+
+    <script>
+        let login = localStorage.getItem("login");
+        let email = localStorage.getItem("email");
+        let gender = localStorage.getItem("gender");
+        let favColor = localStorage.getItem("favColor");
+
+        let accountDiv = document.createElement("div");
+        let loginText = document.createElement("h3");
+        let emailText = document.createElement("p");
+        let genderText = document.createElement("p");
+        let favColorText = document.createElement("p");
+
+        loginText.textContent = login;
+        emailText.textContent = email;
+        genderText.textContent = gender;
+        favColorText.textContent = favColor;
+
+        accountDiv.appendChild(loginText);
+        accountDiv.appendChild(emailText);
+        accountDiv.appendChild(genderText);
+        accountDiv.appendChild(favColorText);
+
+        document.body.appendChild(accountDiv);
+    </script>
+</body>
+</html>

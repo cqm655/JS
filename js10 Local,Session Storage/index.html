@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recenzii</title>
+    <style>
+        #pop-up{
+            background-color: lightblue;
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            padding: 10px;
+            box-shadow: 0 10px 15px -5px rgba(0,0,0,0.5);
+            border-radius: 10px;
+            z-index: 999;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="#" id="pop-up-btn">LOGIN</a>
+        </nav>
+    </header>
+    <main>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Accusamus non laborum temporibus aperiam fugit labore enim reprehenderit at aspernatur nemo unde corrupti accusantium voluptatem impedit saepe facere nam, earum iste maiores. In repellat inventore eius? Eum eos dolor ducimus est accusantium, odio velit. Esse totam alias non itaque dicta aliquid dignissimos sint et cum? Quibusdam earum tempore eligendi nulla iste temporibus laborum consequuntur aliquid ut fugiat error libero voluptatem ea sequi voluptatibus, odio perspiciatis aspernatur ducimus distinctio ipsum dolor quod expedita explicabo sapiente? Mollitia pariatur similique nobis adipisci voluptatibus doloribus, quos ad distinctio in quia sint quidem fuga odio. Veritatis!</p>
+
+        <h3>Reviews</h3>
+         <textarea name="" id="review" cols="30" rows="10"></textarea>
+         <a href="#" id="add-review">Add Review</a>
+
+         <small id="here"></small>
+         <div class="reviews">
+             
+         </div>
+    </main>
+
+
+    <div id="pop-up">
+        <h3>
+            Login
+        </h3>
+        <span id="close-pop-up">Close</span>
+        
+         <form action="" id="form">
+             <br>
+             <label for="login">Login</label>
+             <br>
+             <input type="text" id="login" placeholder="nickname...">
+             <br>
+             <label for="password">Password</label>
+             <br>
+             <input type="password" id="password" placeholder="parola">
+             <br>
+             <input type="submit" value="login">
+             <p id="message"></p>
+         </form>
+
+         
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="./script/script.js"></script>
+    
+</body>
+</html>

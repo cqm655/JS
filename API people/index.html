@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>People</title>
+    <style>
+        .people {
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .person {
+            background-color: rgb(233, 233, 233);
+            display: flex;
+            flex-direction: column;
+            margin: 50px;
+            padding: 25px;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1>People</h1>
+    <div class="people">
+
+    </div>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script>
+        fetch('https://api.github.com/users')
+            .then(response => response.json())
+            .then(result => {
+                // console.log(result)
+                
+                result.forEach((person) => {
+                    // console.log(person)
+                    $('.people').append(`<div class="person"><h1>${person.login}</h1><img src="${person.avatar_url}" height="150px"></div>`)
+                })
+            })
+    </script>
+</body>
+</html>

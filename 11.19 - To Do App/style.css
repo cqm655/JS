@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+:root {
+   --bg-color: #353535;
+   --text-color: #FFFFFF;
+   --accent-color: #284B63;
+}
+
+body,
+input,
+button {
+    font-family: 'Space Mono', monospace; 
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--bg-color);
+}
+
+main {
+    width: 100%;
+}
+
+.con {
+    margin: 20px auto;
+    width: 500px;
+    background-color: var(--text-color);
+    min-height: 600px;
+    border-radius: 15px;
+    box-shadow: 0 10px 20px -5px rgba(0, 0, 0, 0.6);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* row -> align-items: center -> mijloc veritcal 
+    column -> align-items: center -> mijloc orizontal */
+}
+
+.con h1 {
+    color: var(--accent-color);
+    font-size: 28px;
+    margin: 10px 0 0 0;
+}
+
+.con p {
+    color: var(--bg-color);
+    font-size: 20px;
+}
+
+.con input,
+.con select {
+    display: block;
+    margin: 10px;
+    padding: 10px;
+    background-color: #EBEBEB;
+    border: 0;
+    border-radius: 5px;
+    width: 250px;
+    cursor: pointer;
+    caret-color: var(--accent-color);
+}
+
+#btn {
+    background-color: var(--accent-color);
+    color: var(--text-color);
+}
+
+.task {
+    background-color: #EBEBEB;
+    padding: 15px;
+    margin: 10px;
+    width: 400px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+}
+
+.task-text {
+    overflow-wrap: break-word;
+    width: 60%;
+}
+
+.imp-div {
+    width: 20%;
+}
+
+.important,
+.normal,
+.insignificant {
+    background-color: black;
+    color: white;
+    width: 25px;
+    height: 25px;
+    text-align: center;
+    display: block;
+    margin-left: 15px;
+    border-radius: 50%;
+}
+
+.important {
+    background-color: red;
+}
+
+.normal {
+    background-color: #ff7b00;
+}
+
+.insignificant {
+    background-color: green;
+}
+
+.delete-btn {
+    background-color: var(--accent-color);
+    color: #fff;
+    padding: 5px;
+    border: 0;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 20%;
+}

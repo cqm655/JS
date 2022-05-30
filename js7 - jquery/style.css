@@ -1,0 +1,20 @@
+input[type='text']{
+    background-color: pink;
+    
+}
+
+.big-input{
+    padding: 25px 50px;
+    border-radius: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#box{
+    background-color: red;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 15px;
+    width: 100px;
+    height: 100px;
+    position: relative;
+}

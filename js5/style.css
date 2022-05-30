@@ -1,0 +1,21 @@
+body {
+    background-color: rgb(44, 44, 44);
+    color: #fff;
+}
+
+.forH3 {
+    color: red;
+    font-size: 36px;
+}
+
+.forimg {
+    border: 3px solid white;
+}
+
+.wrong {
+    border: 3px solid red;
+}
+
+.correct {
+    border: 3px solid green;
+}

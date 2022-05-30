@@ -1,0 +1,47 @@
+.navbar {
+    padding: 20px;
+}
+
+body{
+background-color: black;
+}
+
+
+
+#image{
+    width: 300px;
+    height: 300px;
+}
+.container{
+    position: relative;
+    display: flex;
+    border-radius: 15px;
+    box-shadow: 0 10px 20px -5px rgba(0, 0, 0, 0.6);
+    height: auto;
+    width: auto;
+}
+.row-filter{
+    position: relative;
+    padding: 10px;
+    display: flex;
+    margin-right: 30px;
+    left: 0;
+    border: 1px solid;
+    border-radius: 5px;
+    width: 330px;
+   height: 330px;
+    justify-content: center;
+    box-shadow: 0 10px 20px -5px rgb(0 0 0 / 60%);
+    background-color: var(--text-color);
+    /* margin: 20px auto;
+    width: 300px;
+    
+    min-height: 600px;
+    border-radius: 15px;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center; */
+    
+}
+

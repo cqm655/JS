@@ -1,0 +1,63 @@
+[
+    {
+        "brand": "Volkswagen",
+        "model": "Golf",
+        "generations": [
+            "MK1",
+            "MK2",
+            "MK3",
+            "MK4",
+            "MK5",
+            "MK6",
+            "MK7",
+            "MK8"
+
+        ],
+        "engines": [
+            "1.2l",
+            "1.4l",
+            "1.5l",
+            "1.6l",
+            "1.8l",
+            "2.0l"
+        ],
+        "origin": {
+            "country": "Germany",
+            "city": "Wolfsburg"
+        },
+        "picture": "./images/wv-golf.jpg"
+    },
+    {
+        "brand": "Toyota",
+        "model": "Corolla",
+        "generations": [
+            "E10",
+            "E20",
+            "E30",
+            "E70",
+            "E80",
+            "E90",
+            "E100",
+            "E110",
+            "E120",
+            "E140",
+            "E160",
+            "E170",
+            "E210"
+
+
+        ],
+        "engines": [
+            "1.4l",
+            "1.5l",
+            "1.6l",
+            "1.8l",
+            "2.0l"
+        ],
+        "origin": {
+            "country": "Japan",
+            "city": "Nagoya"
+        },
+        "picture": "./images/corolla.jpg"
+    }
+]

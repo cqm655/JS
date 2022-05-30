@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>js1</title>
+</head>
+<body>
+    <!-- in-line js -->
+    <button onclick="alert('Hello')">Say Hello</button>
+    <button onclick="confirm('Ai peste 18 ani?')">Verifica varsta</button>
+    <button ondblclick="prompt('Introdu numele tau:')">Introdu nume</button>
+    <br>
+
+    <script>
+        // afisarea informatiei in consola
+        // console.log('Hello World!');
+
+        // afisarea unui text in pagina
+        // document.write('Hello my page!');
+
+        // variabile (var, let, const)
+        /*
+        var name = "Tristan";
+        var age = 19;
+        var hasAHouse = true;
+
+        console.log(name, age, hasAHouse);
+        */
+
+        let city = "Chisinau";
+        let height = 193;
+
+        // console.log(city + ", Moldova", height + 5 + "1");
+
+        const gender = "M";
+
+        // console.log(gender);
+
+        // var vs let
+        /*
+        var a = 10;
+
+        if (true) {
+            var a = 15;
+            console.log(a);
+        }
+
+        console.log(a);
+
+        
+        let b = 25;
+
+        if (true) {
+            let b = 10;
+            console.log(b);
+        }
+
+        console.log(b);
+        */
+
+        let name = "Tristan";
+        let surname = "Panco";
+        let fullname = name + " " + surname;
+
+        // console.log(fullname);
+
+        // + - / * () % += -= ++ /= *= %=
+        // && || ()
+
+        /*
+            camelCase - myHouseIsBig myhouseisbig
+            PascalCase - MyHouseIsBig
+            UPPERCASE - MYHOUSEISBIG
+            $
+            _
+            _$a1A
+        */
+
+        // var _$a1 = 5;
+        // console.log(_$a1);
+
+        // let car = "Honda";
+        // let year = 2017;
+        // let a = car + (year + 2 + "a");
+        // console.log(a); 
+
+        // console.log(typeof car);
+        // console.log(typeof year);
+        // console.log(typeof a);
+        // console.log(typeof -5.2);
+        // console.log(typeof false);
+
+        // let arr = [1, -9, 23, 819, "fdas", "a", true, [1, 2, "trei"]];
+
+        // console.log(arr);
+        // console.log(arr[2]);
+        // console.log(arr[7][2]);
+        // console.log(typeof arr);
+        // console.log(arr.length);
+
+        /*
+        let cars = Array("Honda", "BMW", "Benz");
+
+        // sterge ultimul element din tablou (de la sfarsit)
+        cars.pop();
+
+        // adauga un nou element (la sfarsit)
+        cars.push("Toyota");
+
+        // strege un element (de la inceput)
+        cars.shift();
+
+        // adauga un element (la inceput)
+        cars.unshift("Audi");
+        cars.unshift("Audi");
+        cars.unshift("Audi");
+        
+        for (let i = 0; i < cars.length; i++) {
+            document.write(cars[i] + "<br>");
+            console.log(cars[i]);
+        }
+
+        let newVar = cars.join("-");
+        console.log(newVar);
+        */
+
+        // let a = [2, 1, 190, 11, 35];
+        // let b = [6, 5, 4, "ay", "y", "b"];
+
+        // a = a.concat(b);
+        // console.log(a);
+
+        // a.sort();
+
+        // console.log(a);
+        
+        // function math1(a, b) {
+        //     return a + b;
+        // }
+        
+        // const a1 = 5;
+        // let b1 = 5;
+
+        // console.log(math1(a1, b1));
+        // console.log(math1("jake", "willson"));
+
+        // let r = math1(2, 3.5);
+        // console.log(r);
+
+        // let sum = function() {
+        //     return 2 + 5;
+        // }
+
+        // console.log(sum());
+
+        // let fullName = (firstName, lastName) => firstName + " " + lastName;
+
+        // console.log(fullName("jake", "willson"));
+
+        
+
+
+
+
+
+
+        // == ( 1 == "1" ) valoarea
+        // === ( 1 === 1 ) valoarea si tip de data
+
+        // let age = prompt("Enter age:");
+        // console.log(age);
+
+        // if (age > 19) {
+        //     console.log('esti adult');
+        // } else if (Number(age) == 18) {
+        //     console.log('ai devit chiar acum adult');
+        // } else {
+        //     console.log('esti minor');
+        // }
+
+
+
+
+        // Exercitiu #1
+        // [firstname, lastname, age, gender, hasDrivingLicense]
+        let person = ["Ben", "Gold", 39, "F", true];
+
+        let currentYear = 2021;
+        let birthYear = (age) => currentYear - age;
+        // console.log(birthYear(person[2]));
+
+        let fullName = (firstName, lastName) => firstName + " " + lastName;
+        // console.log(person[0], person[1]);
+
+        let fullGender = (gender) => {
+            if (gender === "M") {
+                return "Barbat";
+            } else if (gender === "F") {
+                return "Femeie";
+            } else {
+                return gender;
+            }
+        };
+        // console.log(fullGender(person[3]));
+
+        let permis = (arePermis) => {
+            if (arePermis) {
+                return "Are permis de conducere";
+            } else {
+                return "Nu are permis de conducere";
+            }
+        };
+        // console.log(permis(person[4]));
+
+        function summary(bYear, fName, gndr, license) {
+            console.log("Nume complet:", fName);
+            console.log("Anul nasterii:", bYear);
+            console.log("Genul:", gndr);
+            console.log("Status de permis:", license);
+        }
+
+        summary(birthYear(person[2]), fullName(person[0], person[1]), fullGender(person[3]), permis(person[4]));
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </script>
+</body>
+</html>
